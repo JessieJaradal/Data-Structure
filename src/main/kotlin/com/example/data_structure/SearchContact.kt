@@ -41,7 +41,7 @@ class ContactsApp : Application() {
         val searchResultLabel = Label()
 
         startTime
-        // set up event handlers for buttons
+
         searchButton.setOnAction {
             val searchTerm = searchField.text
             val foundContacts = contacts.filter {

@@ -71,7 +71,7 @@ class ContactsApp : Application() {
             searchResultLabel.text = " "
         }
 
-        // layout UI components
+
         val form = GridPane().apply {
             hgap = 14.0
             vgap = 14.0
@@ -100,7 +100,7 @@ class ContactsApp : Application() {
             top = searchBox
             center = searchResultBox
         }
-        // set up scene and show window
+   
         val scene = Scene(root, 410.0, 310.0)
         primaryStage?.title = "Search & Contacts App"
         primaryStage?.scene = scene
